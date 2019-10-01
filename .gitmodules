@@ -1,3 +1,18 @@
 [submodule "pack/steve/start/vim-surround"]
 	path = pack/steve/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/steve/start/vim-buftabline"]
+	path = pack/steve/start/vim-buftabline
+	url = https://github.com/ap/vim-buftabline.git
+[submodule "pack/steve/start/typescript-vim"]
+	path = pack/steve/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/steve/start/vim-colors-solarized"]
+	path = pack/steve/start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "pack/steve/start/vim-tsx"]
+	path = pack/steve/start/vim-tsx
+	url = https://github.com/ianks/vim-tsx.git
+[submodule "pack/steve/start/ack.vim"]
+	path = pack/steve/start/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
