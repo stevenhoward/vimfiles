@@ -1,5 +1,3 @@
-" execute pathogen#infect()
-
 syntax enable
 filetype plugin indent on
 
@@ -31,3 +29,8 @@ nnoremap <leader>y magg"+yG`a
 nnoremap <F5> :source %<cr>
 
 autocmd FileType netrw setl bufhidden=wipe
+
+" Trim trailing whitespace
+autocmd BufWritePre * %s/\s\+$//e
+
+let g:ackprg='rg --vimgrep'
