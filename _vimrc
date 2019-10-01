@@ -3,6 +3,9 @@
 syntax enable
 filetype plugin indent on
 
+set background=dark
+colorscheme solarized
+
 set noswapfile
 set hidden ruler
 set number relativenumber
@@ -11,18 +14,20 @@ set foldmethod=syntax nofoldenable foldlevel=2 foldnestmax=10
 set backspace=2
 set scrolloff=3
 
+let mapleader = "<space>"
+
 inoremap jk <Esc>
+inoremap <C-BS> <C-W>
 
 nnoremap <A-j> gj
 nnoremap <A-k> gk
 nnoremap <C-N> :bnext<cr>
 nnoremap <C-P> :bprev<cr>
-let mapleader = "<space>"
 
-map <F4> :bd<cr>
+nnoremap <F4> :bd<cr>
 
-map <leader>y magg"+yG`a
+nnoremap <leader>y magg"+yG`a
 
-map <F5> :source %<cr>
+nnoremap <F5> :source %<cr>
 
 autocmd FileType netrw setl bufhidden=wipe
