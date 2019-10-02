@@ -17,6 +17,7 @@ let mapleader = "<space>"
 inoremap jk <Esc>
 inoremap <C-BS> <C-W>
 
+nnoremap Y y$
 nnoremap <A-j> gj
 nnoremap <A-k> gk
 nnoremap <C-N> :bnext<cr>
@@ -24,7 +25,7 @@ nnoremap <C-P> :bprev<cr>
 
 nnoremap <F4> :bd<cr>
 
-nnoremap <leader>y magg"+yG`a
+nnoremap <leader>y :%y+<cr>
 
 nnoremap <F5> :source %<cr>
 

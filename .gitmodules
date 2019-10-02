@@ -22,3 +22,6 @@
 [submodule "pack\\steve\\start\\vim-rhubarb"]
 	path = pack\\steve\\start\\vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
+[submodule "pack\\steve\\start\\nerdtree"]
+	path = pack\\steve\\start\\nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
