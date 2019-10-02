@@ -25,3 +25,6 @@
 [submodule "pack\\steve\\start\\nerdtree"]
 	path = pack\\steve\\start\\nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack\\steve\\start\\vim-bufkill"]
+	path = pack\\steve\\start\\vim-bufkill
+	url = https://github.com/qpkorr/vim-bufkill
