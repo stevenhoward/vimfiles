@@ -2,6 +2,8 @@ syntax enable
 filetype plugin indent on
 
 set background=dark
+set term=screen-256color
+let g:solarized_termcolors=256
 colorscheme solarized
 
 set noswapfile
@@ -33,6 +35,5 @@ autocmd FileType netrw setl bufhidden=wipe
 
 " Trim trailing whitespace
 autocmd BufWritePre * %s/\s\+$//e
-autocmd vimenter * NERDTree
 
 let g:ackprg='rg --vimgrep'
