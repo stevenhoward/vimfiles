@@ -13,6 +13,7 @@ set tabstop=2 shiftwidth=2 expandtab autoindent
 set foldmethod=syntax nofoldenable foldlevel=2 foldnestmax=10
 set backspace=2
 set scrolloff=3
+set linebreak
 
 let mapleader = "<space>"
 

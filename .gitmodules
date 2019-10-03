@@ -28,3 +28,6 @@
 [submodule "pack/steve/start/vim-bufkill"]
 	path = pack/steve/start/vim-bufkill
 	url = https://github.com/qpkorr/vim-bufkill
+[submodule "pack/steve/start/vim-markdown"]
+	path = pack/steve/start/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
