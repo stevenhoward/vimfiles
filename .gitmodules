@@ -37,3 +37,6 @@
 [submodule "pack/steve/start/vim-airline-themes"]
 	path = pack/steve/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/start/steve/vim-qf"]
+	path = pack/start/steve/vim-qf
+	url = https://github.com/romainl/vim-qf.git
