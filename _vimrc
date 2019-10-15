@@ -1,11 +1,6 @@
 syntax enable
 filetype plugin indent on
 
-if !has("gui_running")
-  set term=screen-256color
-  let g:solarized_termcolors=256
-endif
-
 set background=dark
 colorscheme solarized
 
@@ -17,8 +12,8 @@ set foldmethod=syntax nofoldenable foldlevel=2 foldnestmax=10
 set backspace=2
 set scrolloff=3
 set linebreak
-let mapleader = "<space>"
 
+map <space> <leader>
 inoremap jk <Esc>
 inoremap <C-BS> <C-W>
 

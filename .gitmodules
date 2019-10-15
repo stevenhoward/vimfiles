@@ -40,3 +40,6 @@
 [submodule "pack/start/steve/vim-qf"]
 	path = pack/start/steve/vim-qf
 	url = https://github.com/romainl/vim-qf.git
+[submodule "pack/steve/start/vim-ps1"]
+	path = pack/steve/start/vim-ps1
+	url = https://github.com/PProvost/vim-ps1
