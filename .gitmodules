@@ -37,12 +37,12 @@
 [submodule "pack/steve/start/vim-airline-themes"]
 	path = pack/steve/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
-[submodule "pack/start/steve/vim-qf"]
-	path = pack/start/steve/vim-qf
+[submodule "pack/steve/start/vim-qf"]
+	path = pack/steve/start/vim-qf
 	url = https://github.com/romainl/vim-qf.git
 [submodule "pack/steve/start/vim-ps1"]
 	path = pack/steve/start/vim-ps1
 	url = https://github.com/PProvost/vim-ps1
-[submodule "pack/start/steve/localvimrc"]
-	path = pack/start/steve/localvimrc
+[submodule "pack/steve/start/localvimrc"]
+	path = pack/steve/start/localvimrc
 	url = https://github.com/embear/vim-localvimrc.git
