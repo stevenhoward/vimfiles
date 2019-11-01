@@ -43,3 +43,6 @@
 [submodule "pack/steve/start/vim-ps1"]
 	path = pack/steve/start/vim-ps1
 	url = https://github.com/PProvost/vim-ps1
+[submodule "pack/start/steve/localvimrc"]
+	path = pack/start/steve/localvimrc
+	url = https://github.com/embear/vim-localvimrc.git
