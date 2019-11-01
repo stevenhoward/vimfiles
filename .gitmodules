@@ -46,3 +46,6 @@
 [submodule "pack/steve/start/localvimrc"]
 	path = pack/steve/start/localvimrc
 	url = https://github.com/embear/vim-localvimrc.git
+[submodule "pack/steve/start/vim-jsx-pretty"]
+	path = pack/steve/start/vim-jsx-pretty
+	url = https://github.com/MaxMEllon/vim-jsx-pretty.git
