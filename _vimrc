@@ -28,6 +28,8 @@ nnoremap <C-P> :bprev<cr>
 nnoremap <F4> :bd<cr>
 
 nnoremap <leader>y :%y+<cr>
+nnoremap <leader>d "_d
+nnoremap <leader>c "_c
 
 nnoremap <F5> :source %<cr>
 
