@@ -38,4 +38,4 @@ autocmd FileType netrw setl bufhidden=wipe
 " Trim trailing whitespace
 autocmd BufWritePre * %s/\s\+$//e
 
-let g:ackprg='rg --vimgrep'
+let g:ackprg='rg --vimgrep --smart-case'
