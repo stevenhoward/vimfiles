@@ -52,3 +52,9 @@
 [submodule "pack/steve/start/razor"]
 	path = pack/steve/start/razor
 	url = https://github.com/adamclerk/vim-razor.git
+[submodule "pack/steve/start/mru.vim"]
+	path = pack/steve/start/mru.vim
+	url = https://github.com/vim-scripts/mru.vim.git
+[submodule "pack/steve/start/fzf.vim"]
+	path = pack/steve/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
