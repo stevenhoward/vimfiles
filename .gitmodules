@@ -22,9 +22,6 @@
 [submodule "pack/steve/start/vim-rhubarb"]
 	path = pack/steve/start/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
-[submodule "pack/steve/start/nerdtree"]
-	path = pack/steve/start/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "pack/steve/start/vim-bufkill"]
 	path = pack/steve/start/vim-bufkill
 	url = https://github.com/qpkorr/vim-bufkill
@@ -58,3 +55,6 @@
 [submodule "pack/steve/start/fzf.vim"]
 	path = pack/steve/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/steve/start/command-t"]
+	path = pack/steve/start/command-t
+	url = https://github.com/wincent/command-t.git
