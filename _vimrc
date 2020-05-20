@@ -39,3 +39,10 @@ autocmd FileType netrw setl bufhidden=wipe
 autocmd BufWritePre * %s/\s\+$//e
 
 let g:ackprg='rg --vimgrep --smart-case'
+
+" Search down into subfolders
+" Provides tab-completion for all file-related tasks
+set path+=$PWD/**
+
+" Display all matching files when we complete
+set wildmenu

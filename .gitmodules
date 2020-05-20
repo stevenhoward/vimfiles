@@ -58,3 +58,6 @@
 [submodule "pack/steve/start/command-t"]
 	path = pack/steve/start/command-t
 	url = https://github.com/wincent/command-t.git
+[submodule "pack/steve/start/undotree"]
+	path = pack/steve/start/undotree
+	url = https://github.com/mbbill/undotree.git
