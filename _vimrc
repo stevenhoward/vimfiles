@@ -48,3 +48,6 @@ set path+=$PWD/**
 
 " Display all matching files when we complete
 set wildmenu
+
+" Use eslint to "make"
+set makeprg=npx\ eslint\ -f\ unix
