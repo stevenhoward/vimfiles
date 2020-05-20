@@ -4,7 +4,9 @@ filetype plugin indent on
 source ~/vimfiles/snippets.vim
 
 set background=dark
-colorscheme solarized
+if has("gui_running")
+  colorscheme solarized
+endif
 
 set noswapfile
 set hidden ruler
