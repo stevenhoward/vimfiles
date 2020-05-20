@@ -1,7 +1,7 @@
 syntax enable
 filetype plugin indent on
 
-source .\snippets.vim
+source ~/vimfiles/snippets.vim
 
 set background=dark
 colorscheme solarized
